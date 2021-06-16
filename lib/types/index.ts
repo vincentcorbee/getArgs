@@ -1,0 +1,1 @@
+export interface ParsedArgs { [key: string]: string[] | boolean | number | string }

@@ -1,0 +1,35 @@
+{
+  "name": "@digitalbranch/get-args",
+  "version": "1.0.0",
+  "description": "Get cmd arguments for nodejs",
+  "main": "dist/index.js",
+  "files": [
+    "dist/index.js"
+  ],
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincentcorbee/getArgs.git"
+  },
+  "keywords": [
+    "cmd",
+    "arguments",
+    "nodejs"
+  ],
+  "author": "V.J.M. Corbee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vincentcorbee/getArgs/issues"
+  },
+  "homepage": "https://github.com/vincentcorbee/getArgs#readme",
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "typescript": "^4.3.2"
+  }
+}
