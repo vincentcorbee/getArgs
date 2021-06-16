@@ -11,7 +11,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -29,7 +30,10 @@
   },
   "homepage": "https://github.com/vincentcorbee/getArgs#readme",
   "devDependencies": {
+    "@types/jest": "^26.0.23",
     "@types/node": "^15.12.2",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3",
     "typescript": "^4.3.2"
   }
 }
